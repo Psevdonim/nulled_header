@@ -203,8 +203,8 @@ a {
 
 .header__menu-wrapper {
 	position: absolute;
-	top: -40%;
-	left: 0%;
+	top: 70px;
+	left: -20%;
 	background: rgba(60, 59, 61, 0.9);
 	padding: 20px 40px;
 	transition: 0.3s linear;
@@ -219,5 +219,5 @@ a {
 }
 
 .menu_active .header__menu-wrapper {
-	top: 70px;
+	left: 0;
 }
